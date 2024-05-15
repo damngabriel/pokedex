@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap:24px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(./assets/back.jpg);
+        background-size: cover;
+    }
+    .card{
+        background-color: #ffffff;
+        width: 300px;
+        height: 480px;
+        border-radius: 12px;
+        box-shadow: 4px 4px 12px #aaaaaa;
+    }
+    
+    .card div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        height: 50%;
+    }
+    .card img{
+        height: 300px;
+        width: 300px;
+        border-radius: 12px 12px 0 0;
+    }
+    .card h1{
+        font-size: 24px;
+        color: #aaaaaa;
+    } 
+    .card button{
+        background-color: #ff00c8;
+        height: 30px;
+        border: none;
+        padding:  4px;
+        width: 80%;
+        color:#ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 12px;
+    }
+    
+    @media (max-width: 800px) {
+        body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        gap:24px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(./assets/astley.jpg);
+        background-size: cover;
+        }
+    }
+    .line{
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        row-gap: 10px;
+    }
+    .line2{
+        display: flex;
+        flex-direction: row-reverse;
+        gap:20px;
+        row-gap: 10px;
+    
+    }
